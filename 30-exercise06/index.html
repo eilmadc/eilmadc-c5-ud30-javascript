@@ -15,8 +15,13 @@
 
 <body>
     <p>Ejercicio 6</p>
-    <label>DNI:<input type="text" id="dni_user"></input></label>
-    <button style="background-color: blueviolet; color: aliceblue;font-size: medium;" onclick="calculaDni(dni_user)">Calcular Letra</button>
+    <form>
+        <label>DNI:<input type="text" id="dni_user"></input></label>
+        <label>Letra DNI:<input type="text" id="dni_letter"></input></label>
+        <button style="background-color: blueviolet; color: aliceblue;font-size: medium;"
+            onclick="checkDni()">Calcular Letra</button>
+    </form>
 </body>
 <script src="./js/index.js"></script>
+
 </html>
