@@ -1,7 +1,3 @@
-/* Imprimo por consola del navegador el mensaje:  Hola Mundo*/
-console.log("Hola Mundo!");
-/* Imprimo por consola del navegador el mensaje:  Soy el primer Script*/
-console.log("Soy el primer script");
 /*Guardo los mensajes del console log en variables,
 y los muestro en un alert */
 let mensaje1 = "Hola Mundo!";
