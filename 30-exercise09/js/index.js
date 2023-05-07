@@ -8,7 +8,7 @@ let resultado="" ;
 inicia = () => {
   var texto = document.getElementById("texto").value;
 
-  document.getElementById("txt1").value == texto;
+  resultado += "Texto introducido\n"+texto+"\n";
 
   //Comprueba mayusculas y minusculas
   if (!compruebaMayusculas(texto) && !compruebaMinusculas(texto)) {
